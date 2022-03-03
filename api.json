@@ -1,0 +1,12 @@
+{
+    "runs" :[
+         {
+             "collection" : "./JsonPlaceHolder.postman_collection.json",
+             "environment":"./SOME_RANDOM.postman_environment.json"
+         },
+         {
+             "collection" : "./JsonPlaceHolder_2.postman_collection.json",
+             "environment":"./SOME_RANDOM.postman_environment.json"
+         }
+    ]
+}

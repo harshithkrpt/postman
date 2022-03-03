@@ -1,0 +1,3 @@
+pm.test("NAME",()=>{
+    pm.expect(pm.response.code).to.eq(200)
+})
