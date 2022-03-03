@@ -1,0 +1,23 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshithkrpt/postman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshithkrpt/postman/issues"
+  },
+  "homepage": "https://github.com/harshithkrpt/postman#readme",
+  "dependencies": {
+    "chart.js": "^3.7.1"
+  }
+}
