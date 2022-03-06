@@ -4,20 +4,20 @@ const path = require('path');
 const { exec } = require("child_process");
 const dir = './reports/allure';
 
-const ourReport = {
-    TF_PASS: 0,
-    TF_FAIL: 0,
-    PAAS_PASS: 0,
-    PAAS_FAIL: 0,
-    DSD_PASS: 0,
-    DSD_FAIL: 0
-};
 
 let feedFile = 'api.json'
 
-exec(`sudo newman-run  -f ./${feedFile}`, (error, stdout, stderr) => {
 
+exec(`newman-run  -f ./${feedFile}`, (error, stdout, stderr) => {
 
+  const ourReport = {
+      TF_PASS: 0,
+      TF_FAIL: 0,
+      PAAS_PASS: 0,
+      PAAS_FAIL: 0,
+      DSD_PASS: 0,
+      DSD_FAIL: 0
+  };
 
 
 function getObjectNames(requestName) {
@@ -92,7 +92,7 @@ function init() {
 }
 
 
-init()
+init();
 
 
 })
